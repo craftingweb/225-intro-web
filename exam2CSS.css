@@ -1,0 +1,161 @@
+* { margin: 0; padding: 0; }
+body {
+    background: white;
+    color: black;
+    font: 12px/18px Helvetica, Verdana, Arial, sans-serif;
+}
+
+.nav {
+    background: #75E6DA;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.nav ._ { text-align: center; }
+.nav ._ { color:white; }
+
+.nav2 {
+    background: white;
+    color: grey;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+
+.nav2 ._{ float: left; width:50%;  height:100%;}
+
+.nav2 ._ h1{color:black; padding-left: 70px; }
+.nav2 ._ a{ font-size:12px; text-align: center; text-decoration: none; color:gray;}
+
+.nav2 .__{ float:right; width: 50%; }
+.nav2 .__ h4{margin-right: 110px; float: right; }
+.nav2 .__ img{ float: right; width:30px; height:30px; padding-top:10px;}
+
+
+.nav3 {
+    width:100%;
+    height: 50px;
+    padding-bottom: 10px;
+    background:lightgray;
+    margin: auto 0;
+}
+._nav3 {
+    margin:auto;
+    width: 1100px;
+    height: 60px;
+}
+.nav3 .menu {
+    width:50%;
+    float:left;
+    height:100%;
+    line-height: 60px;
+}
+.nav3 ._nav3 .menu a{ text-decoration:none; color:gray; }
+.nav3 .search{ width:50%; float:right; height:100%; }
+
+form.example input[type=text] {
+    font-size: 12px;
+    border: 1px none grey;
+    float: right;
+    width: 20%;
+    background: white;
+    padding-left:5px;
+    padding-top:5px;
+    padding-right:20px;
+    margin-top: 20px; 
+    padding-bottom:5px;
+}
+
+/* Style the submit button */
+form.example button {
+    float: right;
+    width: 5%;
+    background: white;
+    color: grey;
+    font-size: 17px;
+    border: 1px none grey;
+    padding-top:2px;
+    padding-left:5px;
+    padding-bottom:3px;
+    border-left: none; /* Prevent double borders */
+    margin-top: 20px; 
+    cursor: pointer;
+}
+
+
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card{  
+    position: relative;
+}
+.card .title{
+    font-size: 32px;
+    line-height: 50px;
+    height: 50px;
+}
+.card .content:first-child {padding-top:40px;}
+.card .content
+{
+    margin: auto;
+    overflow:auto;
+    width: 1100px;
+}
+.card .content .item
+{
+    width: 331px;
+    float: left;
+    margin-right: 50px;
+    border:1px solid black;
+}
+.card .content .item:last-child
+{
+    margin-right: 0;
+}
+.card .content .item img
+{
+    height: 331px;
+    width: 331px;
+    background: #EEE;
+}
+.card .content .item a
+{
+    font-size: 24px;
+    color: #333;
+    line-height: 36px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.card .content .item p{
+    font-size:14px;
+    margin-left:4px;
+    margin-top:6px;
+    text-align: center;
+
+}
+.card .content .item span
+{
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    display: block;
+    margin-top: 20px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.card .more
+{
+    background: red;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
