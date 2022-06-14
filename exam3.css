@@ -1,0 +1,18 @@
+.board { 
+    position: relative;
+    margin:100px auto;
+    height: 530px; 
+    width: 530px; 
+    border: 2px solid black; 
+}
+
+.tile {
+    height: 100px; /* might have to fix/adjust */
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border:1px solid black;
+    top:1px;
+    left:1px;
+  }
